@@ -1,6 +1,6 @@
 ---
 title: "如何用 hugo 搭建个人博客"
-date: 2020-03-31T10:48:03+08:00
+date: 2020-03-31T22:18:03+08:00
 draft: false
 ---
 
@@ -15,7 +15,7 @@ hugo是一个用Go语言实现的一个博客生成器，我们可以使用hugo�
 
 1. 通过hugo搭建一个博客生成器来撰写博客；
 2. 把撰写的博客上传到github的仓库，通过github pages就可以进行浏览了；
-3. 购买自己的域名连接到github上，这样就可以把你的博客放到你专属的网站上了；
+3. 购买自己的域名连接到github上，这样就可以把你的博客放到你专属的网站上了。
 
 # 搭建hugo博客生成器
 
@@ -25,7 +25,7 @@ hugo是一个用Go语言实现的一个博客生成器，我们可以使用hugo�
 
 ![](/static/images/path.png)
 
-2. 重启cmder，运行“hugo version”。我们可以看到安装的hugo的版本号。
+1. 重启cmder，运行“hugo version”。我们可以看到安装的hugo的版本号。
 
 ````
 λ hugo version
@@ -48,7 +48,7 @@ hugo new posts/博客名.md
   
 ![](/static/images/draft.png)
 
-3. 将config.toml中进行如下图更改。
+1. 将config.toml中进行如下图更改。
    
 
 ![](/static/images/config.png)
