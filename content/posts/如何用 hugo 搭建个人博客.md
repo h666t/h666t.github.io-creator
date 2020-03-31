@@ -101,7 +101,7 @@ Press Ctrl+C to stop
 
 进入 用户名.github.io 的 settings选项，找到GitHub Pages，将旁边的链接分享给他人，我们可以发现，他人也可以通过github的链接浏览你的博客了。
 
-![](/static/images/reposetting.png)
+![1](/static/images/reposetting.png)
 
 
 # 将你的博客放到属于你的网站上
