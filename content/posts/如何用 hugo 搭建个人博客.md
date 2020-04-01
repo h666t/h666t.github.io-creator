@@ -133,4 +133,4 @@ Addresses:  185.199.110.153
 
 ![suc.png](https://i.loli.net/2020/04/01/BaRHyoeAxnVGdJq.png)
 
-#### 当我们需要写新博客时，我们只需要在D:\jirengu\h666t.github.io-creator\content\posts 路径中复制一个md文件，编写完成后上传到github仓库，就可以在我们的网站上正常浏览啦！
+#### 当我们需要写新博客时，我们只需要在D:\jirengu\h666t.github.io-creator\content\posts 路径中复制一个md文件，编写完成后，在creator文件夹下，运行hugo，然后在进入public文件夹，把文件上传到github仓库，就可以在我们的网站上正常浏览啦！
