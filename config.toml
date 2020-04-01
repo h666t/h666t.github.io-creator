@@ -1,4 +1,4 @@
-baseURL = "https://github.com/h666t/h666t.github.io"
+baseURL = "github.com/h666t"
 languageCode = "zh-Hans"
 title = "昊天的博客"
 theme = "ananke"
