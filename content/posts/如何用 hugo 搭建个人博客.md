@@ -23,7 +23,7 @@ hugo是一个用Go语言实现的一个博客生成器，我们可以使用hugo�
 
 1. hugo下载完成以后，建议将hugo.exe放到 D:\Software\hugo 路径中，然后将此路径放到环境变量中。(按下图操作)
 
-![](/static/images/path.png)
+![path.png](https://i.loli.net/2020/04/01/MiuGFSIRB8bfDoq.png)
 
 1. 重启cmder，运行“hugo version”。我们可以看到安装的hugo的版本号。
 
@@ -46,12 +46,12 @@ hugo new posts/博客名.md
    
    这里需要注意：将draft改为false
   
-![](/static/images/draft.png)
+![draft.png](https://i.loli.net/2020/04/01/rlTOXRyV1EZFd3N.png)
 
-1. 将config.toml中进行如下图更改。
+3. 将config.toml中进行如下图更改。
    
 
-![](/static/images/config.png)
+![config.png](https://i.loli.net/2020/04/01/NCh5tfosEjxr9bd.png)
 
 
 
@@ -93,7 +93,7 @@ Press Ctrl+C to stop
 
 1. 在cmder运行Hugo，这时，我们会发现文件夹内多了一个public的文件夹，这个public文件夹就是我们要用来展示的博客。（我们需要写一个.gitignore文件来避免public和博客编辑器一起被推送到同一个github仓库）
 
-![](/static/images/.ignore.png)
+![.ignore.png](https://i.loli.net/2020/04/01/z5pynZr31WOCheu.png)
 
 2. 此时我们可以建立一个github远程仓库（仓库名字必须为：用户名（小写）.github.io）,然后将public推送到该仓库。
 
@@ -101,7 +101,7 @@ Press Ctrl+C to stop
 
 进入 用户名.github.io 的 settings选项，找到GitHub Pages，将旁边的链接分享给他人，我们可以发现，他人也可以通过github的链接浏览你的博客了。
 
-![1](/static/images/reposetting.png)
+![reposetting.png](https://i.loli.net/2020/04/01/HcWFPEj2xrfCNdb.png)
 
 
 # 将你的博客放到属于你的网站上
@@ -112,7 +112,7 @@ Press Ctrl+C to stop
 ![](/static/images/ip.png)
 
 * 配置解析设置：以阿里云为例，将ip地址分别添加到购买的域名中。（按下图操作，得到图4）
-![](/static/images/apex.png)
+![apex.png](https://i.loli.net/2020/04/01/QmxDRJcXpv3t8b4.png)
 
 * 在命令行输入nslookup 域名，测试解析设置是否成功，若返回四个IP地址，则说明成功，否则，可等一段时间在测试一下。
 
@@ -131,6 +131,6 @@ Addresses:  185.199.110.153
   
 * 将你的域名填入github pages中储存一下，你就拥有了一个属于你自己的博客网站了。
 
-![](/static/images/suc.png)
+![suc.png](https://i.loli.net/2020/04/01/BaRHyoeAxnVGdJq.png)
 
 #### 当我们需要写新博客时，我们只需要在D:\jirengu\h666t.github.io-creator\content\posts 路径中复制一个md文件，编写完成后上传到github仓库，就可以在我们的网站上正常浏览啦！
