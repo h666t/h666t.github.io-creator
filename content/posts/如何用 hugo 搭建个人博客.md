@@ -51,7 +51,7 @@ hugo new posts/博客名.md
 3. 将config.toml中进行如下图更改。
    
 
-![config.png](https://i.loli.net/2020/04/01/NCh5tfosEjxr9bd.png)
+![config.png](https://i.loli.net/2020/04/01/R7mOxjbcGJfUYHv.png)
 
 
 
